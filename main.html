@@ -10,9 +10,10 @@
 </head>
 
 <body>
-	<table class="table">
-		<thead>
-			<tr class="table-dark">
+	<table class="table table-responsive caption-top table-hover">
+		<caption>List of all transcation</caption>
+		<thead class="table-dark">
+			<tr>
 				<th scope="col">#</th>
 				<th scope="col">From</th>
 				<th scope="col">To</th>
@@ -38,11 +39,12 @@
 				<td>John</td>
 				<td>2000</td>
 			</tr>
-			<tr>
-				<td colspan="3"></td>
-				<th class= scope="col">Total 4000</th>
-			</tr>
 		</tbody>
+		<tfoot>
+			<tr>
+				<th class="font-monospace text-end fw-bold" id="total" colspan="3">Total 4000</th>
+			</tr>
+		</tfoot>
 	</table>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
